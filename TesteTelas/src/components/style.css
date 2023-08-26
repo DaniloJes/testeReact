@@ -1,0 +1,43 @@
+.produto{
+    height: 180px;
+    width: 250px;
+    background-color: rgb(226, 222, 222);
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ItemUser{
+     width:80vw;
+     height: 8vh;
+     background-color: rgba(143, 138, 138, 0.459);
+     margin: 2vh 0;
+     border: 0.5px solid black;
+     display: flex; 
+     align-items: center;
+     justify-content: flex-start;
+    
+}
+.ItemUser div{
+padding: 10px;
+}
+.active{
+    
+    border-bottom:  20px solid rgb(177, 54, 54);
+}
+.pages{
+    align-items: center;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        height: 6vh;
+        background-color: rgb(231, 231, 231);
+        padding: 10px;
+    }
+    .desc{
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    
