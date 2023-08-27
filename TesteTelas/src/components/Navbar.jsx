@@ -6,9 +6,10 @@ const Navbar = () => {
     
   return (
     <nav className='nav'>
-        <Link to='/' className='icon'>Meu App</Link>
+        <Link to={"/"} className='icon'>Meu App</Link>
 
         <ul>
+           <CustomLink to={"/"}>inicio</CustomLink>
            <CustomLink to={"/produtos"}>Produtos</CustomLink>
            <CustomLink to={"/usuarios"}>usuarios</CustomLink>
            
@@ -21,7 +22,7 @@ function CustomLink({to,children,...props}){
   const isActive = useMatch({path:resolvedPath.pathname, end:true})
     console.log(resolvedPath.pathname)
     return(
-        <li className={isActive ? to = 'active': ''}>
+        <li className={isActive ? 'active': ''}>
         <Link to={to} {...props}>
           {children}
           </Link>

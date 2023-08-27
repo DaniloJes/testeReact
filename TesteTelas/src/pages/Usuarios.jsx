@@ -14,6 +14,16 @@ import BarPage from '../components/BarPage'
   nome:'Maria Sauro',
   Cidade: 'Votorantim'
 },
+{
+  id: '2',
+  nome:'Maria Sauro',
+  Cidade: 'Votorantim'
+},
+{
+  id: '2',
+  nome:'Maria Sauro',
+  Cidade: 'Votorantim'
+},
 ])
 const Usuarios = () => {
   return (
@@ -22,9 +32,7 @@ const Usuarios = () => {
   
      <div className='conteudo'>
       Usuarios
-       <ItemUser nome = {pessoas[0].nome} id={pessoas[0].id} cidade={pessoas[0].Cidade}/>
-       <ItemUser nome = {pessoas[1].nome} id={pessoas[1].id} cidade={pessoas[1].Cidade}/>
-  
+      {pessoas.map((pessoa)=>(<ItemUser nome={pessoa.nome} id={pessoa.id}cidade = {pessoa.Cidade}/>  ))}
     </div>
     </>
    
