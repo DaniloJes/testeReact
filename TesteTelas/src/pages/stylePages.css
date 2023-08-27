@@ -18,7 +18,7 @@
     border-radius: 10px;
 }
 .containerProd{
-    margin-top: 5vh;
+    margin-top: 3vh;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -27,5 +27,5 @@
 }
 
 .active{
-    border-bottom:  1px solid white;
+    border-bottom:  1px solid rgb(26, 10, 10);
 }

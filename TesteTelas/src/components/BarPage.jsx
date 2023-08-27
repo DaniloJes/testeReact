@@ -6,7 +6,7 @@ const BarPage = ({janela}) => {
     <div>
      <div className='pages'>
       <div className='desc'>
-        inicio {janela}
+        Início {janela}
       </div>
     </div>
     </div>

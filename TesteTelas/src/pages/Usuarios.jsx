@@ -14,24 +14,14 @@ import BarPage from '../components/BarPage'
   nome:'Maria Sauro',
   Cidade: 'Votorantim'
 },
-{
-  id: '2',
-  nome:'Maria Sauro',
-  Cidade: 'Votorantim'
-},
-{
-  id: '2',
-  nome:'Maria Sauro',
-  Cidade: 'Votorantim'
-},
 ])
 const Usuarios = () => {
   return (
     <>
-    <BarPage janela = " > Usuarios"/>
+    <BarPage janela = " > Usuários"/>
   
      <div className='conteudo'>
-      Usuarios
+     <h3>Usuários</h3>
       {pessoas.map((pessoa)=>(<ItemUser nome={pessoa.nome} id={pessoa.id}cidade = {pessoa.Cidade}/>  ))}
     </div>
     </>

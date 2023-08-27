@@ -9,9 +9,9 @@ const Navbar = () => {
         <Link to={"/"} className='icon'>Meu App</Link>
 
         <ul>
-           <CustomLink to={"/"}>inicio</CustomLink>
+           <CustomLink to={"/"}>Início</CustomLink>
+           <CustomLink to={"/usuarios"}>Usuários</CustomLink>
            <CustomLink to={"/produtos"}>Produtos</CustomLink>
-           <CustomLink to={"/usuarios"}>usuarios</CustomLink>
            
         </ul>
     </nav>
